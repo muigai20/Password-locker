@@ -20,6 +20,7 @@ class User:
         '''
         User.user_list.append(self)
 class Credentials:
+    credentials_list = []
     '''
     class that defines credentials for differents accounts
     '''
@@ -30,3 +31,8 @@ class Credentials:
         self.account_name = account_name
         self.username = username
         self.password = password
+    def save_credentials(self):
+        '''
+        function to save credentials 
+        '''
+         Credentials.credentials_list.append(self)
