@@ -58,4 +58,9 @@ class Credentials:
         function to display the credentials and its account
         '''
         return cls.credentials_list
+    def delete_credentials(self):
+        '''
+        function to delete the account credentials
+        '''
+        Credentials.credentials_list.remove(self)
     
