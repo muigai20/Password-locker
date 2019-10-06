@@ -1,5 +1,5 @@
-# 
-Password Locker
+# Password Locker
+
 ## Author
 By Joseph Kamau
 ## Description
