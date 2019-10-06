@@ -52,4 +52,10 @@ class Credentials:
         chars = string.ascii_uppercase + string.ascii_lowercase + string.digits
         size = 8
         return ''.join(random.choice(chars) for x in range(size,20))
+    @classmethod
+    def display_credentials(cls):
+        '''
+        function to display the credentials and its account
+        '''
+        return cls.credentials_list
     
