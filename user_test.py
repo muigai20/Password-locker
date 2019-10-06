@@ -19,3 +19,9 @@ class TestUser(unittest.TestCase):
         self.assertEqual(self.new_user.first_name,"Joseph")
         self.assertEqual(self.new_user.last_name,"Kamau")
         self.assertEqual(self.new_user.password,"cooperative")
+    def test_save_user(self):
+        '''
+        test to confirm whether app saves user login details
+        '''
+        self.new_user.save_user()
+        self.assertEqual(len(User.user_list),1)
