@@ -19,3 +19,14 @@ class User:
         function to save user login details
         '''
         User.user_list.append(self)
+class Credentials:
+    '''
+    class that defines credentials for differents accounts
+    '''
+    def __init__(self,account_name,username,password):
+        '''
+        function to initialize credentials field correctly
+        '''
+        self.account_name = account_name
+        self.username = username
+        self.password = password
