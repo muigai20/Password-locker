@@ -28,7 +28,7 @@ Python
 ## Known Bugs
 There are no known bugs currently
 ## More Info
-Email muigaijosephkamau@gmail.com
+[Email] (muigaijosephkamau@gmail.com)
 #### License and Copyright
 Copyright (c) 2019 Joseph Kamau Muigai
 
