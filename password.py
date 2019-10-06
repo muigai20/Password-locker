@@ -35,4 +35,12 @@ class Credentials:
         '''
         function to save credentials 
         '''
-         Credentials.credentials_list.append(self)
+        Credentials.credentials_list.append(self)
+    @classmethod
+    def find_by_name(cls,name):
+        '''
+        function that take the account name and returns the object
+        '''
+        for account in cls.credentials_list:
+            if account.account_name == name:
+                return account
